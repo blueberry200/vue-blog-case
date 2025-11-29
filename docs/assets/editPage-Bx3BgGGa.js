@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c,o}from"./index-IaFjNAix.js";const r={};function t(n,a){return o(),c("div",null,"編輯頁")}const f=e(r,[["render",t]]);export{f as default};
