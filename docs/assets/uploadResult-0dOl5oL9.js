@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as c}from"./index-BbBooZzi.js";const r={};function t(n,s){return c(),o("div",null,"上傳結果")}const l=e(r,[["render",t]]);export{l as default};
