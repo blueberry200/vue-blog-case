@@ -6,6 +6,8 @@ import Components from "unplugin-vue-components/vite";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 import path from "path";
 
+const isProd = process.env.NODE_ENV === "production";
+
 export default defineConfig({
   plugins: [
     vue(),
@@ -22,4 +24,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: isProd ? "/vue-blog-case/" : "/",
 });
